@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/garden2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dip" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/a"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/b"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/c"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/d"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="4"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/e"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="5"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/f"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="6"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/g"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="7"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/h"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="8"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/i"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="9"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+
+                <Button
+                    android:id="@+id/j"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tombol_kecil"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="23dip" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/keluar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/home" />
+
+    </RelativeLayout>
+
+</LinearLayout>
